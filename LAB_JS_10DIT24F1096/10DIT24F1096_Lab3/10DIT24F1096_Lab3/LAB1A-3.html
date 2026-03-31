@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Calculator</title>
+    <link rel="stylesheet" href="style_grade.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <div class="calc-card">
+            <h1>Mark Calculator (PW1 + PW2)</h1>
+
+            <div class="input-group">
+                <label>Student Name</label>
+                <input type="text" id="studentName">
+            </div>
+
+            <div class="input-group">
+                <label>Practical Work 1 (0–100)</label>
+                <input type="number" id="pw1">
+            </div>
+
+            <div class="input-group">
+                <label>Practical Work 2 (0–100)</label>
+                <input type="number" id="pw2">
+            </div>
+
+            <button id="btnCalc">Calculate</button>
+
+            <div id="outputBox" class="alert alert-secondary mt-3 mb-0">
+                Output will appear here
+            </div>
+        </div>
+    </div>
+
+    <script src="script_grade.js"></script>
+</body>
+</html>
